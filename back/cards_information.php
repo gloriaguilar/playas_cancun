@@ -11,12 +11,12 @@ $info_places = array(
     "playa_del_carmen" => array(
         "title"        => "Playa del Carmen",
         "img"          => "assets/img/playa_del_carmen.jpg",
-        "descripcion"  => "Esta ciudad se encuentra aproximadamente dos horas de Cancún. Puedes transportarte por ADO o Vans colectivas (precios accesibles). Tienes que visitar la famosa 5ta Av, donde encontraras diversas artesanias, una amplia oferta gastronimica y una gran variedad de entretenimiento."
+        "descripcion"  => "Esta ciudad se encuentra aproximadamente dos horas de Cancún. Puedes transportarte por ADO o Vans colectivas (precios accesibles). Tienes que visitar la famosa 5ta Av, donde encontraras diversas artesanías, una amplia oferta gastronimica y una gran variedad de entretenimiento."
     ),
     "isla_mujeres" => array(
         "title"        => "Isla Mujeres",
         "img"          => "assets/img/isla_mujeres.jpg",
-        "descripcion"  => "La Isla más cercana si te hospedas en Cancún, no tardas en llegas mas de 1 hora en Ferry. Lo que mas te recomendamos es que rentes un carrito de golf o una bicleta (si tienes condición suficiente) y le des la vuelta entera a la Isla, en el recorrido podrás disfrutar de una cerveza, coco frío, las ruinas y la vista espectacular del mar."
+        "descripcion"  => "La Isla más cercana si te hospedas en Cancún, no tardas en llegas mas de 1 hora en Ferry. Lo que mÁs te recomendamos es que rentes un carrito de golf o una bicicleta (si tienes condición suficiente) y le des la vuelta entera a la Isla, en el recorrido podrás disfrutar de una cerveza, coco frío, las ruinas y la vista espectacular del mar."
     ),
     "holbox" => array(
         "title"        => "Holbox",

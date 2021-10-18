@@ -8,7 +8,7 @@ $info_beach = array(
         "transporte"  => "Cualquier Autobus R-2, carro o taxi.",
         "img"         => "assets/img/casa_maya.JPG",
         "descripcion" => "De las mas tranquilas por el escaso oleaje y la poca profundida.<br>
-        Puedes acercarte a cualquier Hotel y pagar el club de Playa. O puedes irte armado sentarte en la arena y disfrutar."
+        Puedes acercarte a cualquier Hotel y pagar el club de Playa. O puedes irte armado, sentarte en la arena y disfrutar."
     ),
     "playa_tortugas" => array(
         "nombre"      => "Playa Tortugas",

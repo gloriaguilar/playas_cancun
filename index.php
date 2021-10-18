@@ -39,15 +39,15 @@
                     include('back/beach_information.php');
                     foreach ($info_beach as $beach => $info){
                 ?>
-                <div class="card flex-column d-flex-center container__beach-information pd-20">
+                <div class="card flex-column d-flex-center container__beach-information">
                     <div class="container__section__beach-img">
                         <img src='<?=$info['img']?>' alt="Casa_Maya_Cancun" class="wd-100">
                     </div>
                     <div class="container__section__beach-text">
                         <h3><?=$info['nombre']?></h3>
-                        <span class="container_section__beach__card-span"><b>Ubicación: </b>  <?=$info['ubicacion']?></span>
+                        <i class="fas fa-map-marker-alt color-red"></i> <span class="container_section__beach__card-span"><b> Ubicación: </b>  <?=$info['ubicacion']?></span>
                         <br>
-                        <span class="container_section__beach__card-span"> <b>Como llegar:</b> <?=$info['transporte']?></span>
+                        <i class="fas fa-bus color-red"></i> <span class="container_section__beach__card-span"><b> Como llegar: </b> <?=$info['transporte']?></span>
                         <br>
                         <p><?=$info['descripcion']?></p> 
                     </div>

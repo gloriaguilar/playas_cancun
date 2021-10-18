@@ -83,11 +83,22 @@ ul{
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-top: 40px;
-
+    
 }
 .container_section__beach__card-span{
     font-size: 15px;
 }
+
+.container__beach-information{
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    margin-bottom: 35px;
+    padding: 30px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+
+
 
 /*************************---TIPS Y ALREDEDORES----*************************/
 .container__section__tips-list {
@@ -221,7 +232,7 @@ ul{
         font-size: 20px;
     }
      .container__around-information, .container__beach-information {
-        width: 100%;
+        width: 95%;
     }       
     
 }
