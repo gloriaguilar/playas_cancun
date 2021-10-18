@@ -148,7 +148,11 @@ ul{
  .footer p {
      align-self: center;
  }
-
+ 
+ .footer__text-a{
+        text-decoration: none;
+        color: white
+    }
 @media screen and (max-width: 1024px) {
     .container__section__tips-list{
         flex-direction: column;

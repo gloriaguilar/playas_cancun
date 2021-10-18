@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/modifiers.css">
     <script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
-    <title>Playi-Landia</title>
+    <title>Playas del Caribe</title>
 </head>
 <body>
     <header>
@@ -101,7 +101,7 @@
             <br>
             <div>
                 <p>Psss...psst....</p>
-                <p>Me encuentras aquí: <i class="fab fa-linkedin"></i> <i class="fab fa-github"></i></p>
+                <p>Me encuentras aquí: <a class="footer__text-a" href="https://www.linkedin.com/in/gloria-aguilar-130198"><i class="fab fa-linkedin"></i></a> <a class="footer__text-a" href="https://github.com/gloriaguilar"><i class="fab fa-github"></i></p></a>
             </div>
         </div>
     </div>
