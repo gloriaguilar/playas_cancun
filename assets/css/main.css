@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*********************-----NAV---*******************************/
+.nav__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.nav__container__title{
+    font-size: 25px;
+    padding: 15px;
+    margin-right: auto;
+
+}
+.nav__container__title a{
+    text-decoration: none;
+    color: rgb(44, 40, 40);
+    border-bottom: 4px solid rgb(53 134 145);
+}
+ul{
+    list-style: none;
+}
+
+.nav__container li{
+    flex-grow: 1;
+    border-bottom: 4px solid transparent;
+    transition: border .2s ease;
+    font-size: 22px;
+}
+.nav__container li a{
+    text-decoration: none;
+    color: rgb(44, 40, 40);
+    display: inline-block;
+    padding: 15px 20px;
+
+}
+.nav__container li:hover{
+    border-bottom-color: #e9563c
+}
+
+.nav__container__menu input, label{
+    display: none;
+}
+
+/****************************--Imagen inicio******************************************/
+.main__container h2{
+    align-self: center;
+}
+.container__intro{
+    margin: auto;
+    position: relative;
+}
+
+.container__intro-title{
+    font-size: 50px;
+    position: absolute;
+    top: 15%;
+    text-align: center;
+    font-weight: 700;
+}
+.main__container__intro img{
+    object-fit: fill;
+}
+
+/***************************Seccion de Playas***************************************/
+.container_section__beach__card p{
+    font-size: 15px;
+    text-align: left;
+    line-height: 25px
+}
+
+
+.container_section__beach__card{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 40px;
+
+}
+.container_section__beach__card-span{
+    font-size: 15px;
+}
+
+/*************************---TIPS Y ALREDEDORES----*************************/
+.container__section__tips-list {
+    width: 30%;
+    /* flex-direction: column; */
+    padding: 20px;
+}
+
+.container__around-information, .container__beach-information {
+    width: 45%
+
+}
+
+.container__section__tips-list i {
+    font-size: 50px;
+    padding: 10px;
+}
+
+
+.container__section__tips{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/*****************Titulos **************************/
+
+.container__section__span{
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 50px;
+    align-self: center;
+    position: relative;
+
+}
+.container__section__span::after{
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    right: 0;
+    height: 4px;
+    width: 80px;
+    background: rgb(53 134 145);
+    content: "";
+    margin: 0 auto;
+}
+
+/******************---FOOTER-----*******************/
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(39 56 88);
+    color: white;
+    text-align: center;
+ }
+
+ .footer p {
+     align-self: center;
+ }
+
+@media screen and (max-width: 1024px) {
+    .container__section__tips-list{
+        flex-direction: column;
+    
+    }
+
+    .container__section__tips-list span{
+        font-size: 15px;
+
+    }
+    .container__section__tips-list i{
+        align-self: center;
+
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .nav__container{
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+    .nav__container ul{
+        flex-wrap: wrap;
+        flex-grow: 1;
+    }
+    .nav__container__menu label{
+        padding: 10px;
+        display: block;
+        font-size: 27px;
+    }
+
+    #btn_menu_responsive:checked ~  ul{
+        display: flex;
+    }
+
+    .container__intro-title {
+        font-size: 35px;
+    }
+    .container__section__span {
+        font-size: 35px;
+    }
+    .container__section__tips {
+        flex-direction: column;
+    }
+    
+    .container__section__tips-list{
+        align-self: center;
+        width: 80%;
+    }
+
+    .container__section__around{
+        flex-direction: column;
+    }
+
+    .container__around-information, .container__beach-information{
+        align-self: center;
+        width: 80%;
+    }
+
+}
+    
+@media screen and (max-width: 550px) {
+
+    .container__intro-title , .container__section__span{
+        font-size: 20px;
+    }
+     .container__around-information, .container__beach-information {
+        width: 100%;
+    }       
+    
+}

@@ -1,0 +1,82 @@
+/***********
+
+Hojas de estilo para modificar el desplegable
+
+****************/
+
+
+.d-flex{
+    display: flex;
+}
+.flex.row{
+    flex-direction: row;
+}
+.flex-column{
+    flex-direction: column;
+}
+.flex-justify-beetwen{
+    justify-content: space-between;
+}
+
+.flex-justify-around{
+    justify-content: space-around;
+}
+
+.flex-justify-evenly{
+    justify-content: space-evenly;
+}
+.d-flex-center{
+    display: flex;
+    justify-content: center;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+
+
+/**Se establecen colores*****/
+
+
+.bg-white{
+    background-color: rgb(255, 255, 255);
+}
+
+.color-white{
+    color: rgb(255, 255, 255);
+}
+
+.color-red{
+    color:#e9563c;
+}
+
+.color-gray{
+    background-color: #dbd8d821;
+}
+/*******Se establecen colores del contenedor**********/
+
+.wd-100{
+    width: 100%;
+}
+
+.wd-30{
+    width: 30%;
+}
+
+.wd-45{
+    width: 45%;
+}
+
+
+.pd-r15{
+    padding-right: 15px;
+}
+
+.pd-20{
+    padding: 20px;
+}
+
+
+.fw-500{
+    font-weight: 500;
+}
