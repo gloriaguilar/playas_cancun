@@ -29,14 +29,14 @@ $info_beach = array(
         "ubicacion"   => "Km 10 - A un costado de Oxxo y Farmacias del Ahorro",
         "transporte"  => "Cualquier Autobus R-2, carro o taxi.",
         "img"         => "assets/img/chacmool.jpg",
-        "descripcion" => "El oleaje es más fuerte, hay para rentar camastros o llevar tus propias cosas. La ventaja de este lugar es que tienes un Oxxo cerca para comprar lo que necesitas."
+        "descripcion" => "El oleaje es más fuerte, hay para rentar camastros o llevar tus propias cosas. La ventaja de este lugar es que hay tiendas de conveniencia cerca para comprar lo que necesitas."
     ),
     "playa_delfines" => array(
         "nombre"      => "Playa Delfines - Mirador",
         "ubicacion"   => "Km 18",
         "transporte"  => "Cualquier Autobus R-2, carro o taxi.",
         "img"         => "assets/img/mirador.jpeg",
-        "descripcion" => "El oleaje es el más fuerte, tienes el mejor panorama para apreciar el mar Caribe. El gobierno implemente palmas para que puedas instalarte y disfrutar de la Playa.",
+        "descripcion" => "El oleaje es el más fuerte, tienes el mejor panorama para apreciar el mar Caribe. El gobierno implemento palmeras para que puedas instalarte y disfrutar de la Playa.",
     )
 );
 
