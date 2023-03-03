@@ -2,11 +2,7 @@
     "redirects": [
         {
             "source": "/",
-            "destination": "/index.php"
+            "destination": "index.php"
         }
-    ],
-    "routes": [{
-        "src": "/(.*)",
-        "dest": "/api/index.php"
-    }]
+    ]
 }
