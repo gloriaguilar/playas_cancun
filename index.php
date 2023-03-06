@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="<?= __DIR__."/assets/css/main.css"  ?>">
     <link rel="stylesheet" href="assets/css/modifiers.css">
     <script src="https://kit.fontawesome.com/62ea397d3a.js" crossorigin="anonymous"></script>
     <title>Playas del Caribe</title>
@@ -29,7 +29,8 @@
     <div class="main__container bg-white wd-100">
         <div class="main__container__intro wd-100 d-flex-center">
             <div class="container__intro d-flex-center">
-                <img src="assets/img/cancun_mirador.jpg" class="wd-100" alt="" srcset="">
+                <img src="https://github.com/gloriaguilar/playas_cancun/blob/master/assets/img/cancun_mirador.jpg"
+                    class="wd-100" alt="Mirador cancun" srcset="">
                 <span class="container__intro-title color-white">¡Todo lo que necesitas saber de las playas de
                     Cancún!</span>
             </div>
@@ -39,12 +40,12 @@
             <br>
             <div class="container_section__beach__card d-flex  flex-justify-around flex-wrap">
                 <?php
-                include('back/beach_information.php');
+                include(__DIR__.'/back/beach_information.php');
                 foreach ($info_beach as $beach => $info) {
                 ?>
                 <div class="card flex-column d-flex-center container__beach-information">
                     <div class="container__section__beach-img">
-                        <img src='<?= $info['img'] ?>' alt="Casa_Maya_Cancun" class="wd-100">
+                        <img src='<?= __DIR__."/".$info['img'] ?>' alt='<?= $info['nombre'] ?>' class="wd-100">
                     </div>
                     <div class="container__section__beach-text">
                         <h3>
