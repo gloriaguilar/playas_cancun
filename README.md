@@ -6,4 +6,4 @@ con el fin de que cualquier persona que desee conocer las playas de Cancún, ten
 <p>Cabe mencionar que he sido de las que estan casadas con Bootstrap, disfrute muchisimo maquetar con Flexbox, ¡es una maravilla! :sunrise:</p>
 </br>
 Dejo el link de la página en vivo y directo:  
-https://playas-caribe-2021.herokuapp.com/ 
+https://playas-cancun.000webhostapp.com/
